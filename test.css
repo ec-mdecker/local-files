@@ -1,0 +1,155 @@
+#page .media {
+  max-width: 100%;
+}
+
+.media .file {
+  background-color: transparent;
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  margin: 0px;
+  white-space: normal;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: normal;
+}
+
+.media .file .contextual-links-trigger {
+  display: none !important;
+}
+
+div.media.media-element-container {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#page .accordion h2, #page .accordion h3, #page .accordion h4, #page .accordion h5, #page .accordion h6 {
+  text-transform: none;
+}
+
+#page .form-type-select select {
+  width: auto;
+}
+
+#page ul.quicktabs-tabs {
+  margin: 0;
+}
+
+#page .region-header-second h2.block-title {
+  display: none;
+}
+
+.view-id-i_am_a .view-header, .view-id-i_am_a .view-content, .view-id-i_am_a .form-type-select, .view-id-i_am_a .ctools-jump-menu-button {
+  float: left;
+}
+
+#page ul.quicktabs-tabs {
+  display: table;
+  width: 100%;
+}
+
+#page ul.quicktabs-tabs > li a {
+  white-space: normal;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+@media (min-width: 600px) {
+  #page ul.quicktabs-tabs > li {
+    display: table-cell;
+    float: none;
+    background: #e9e9e9;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #ccc;
+  }
+
+  #page ul.quicktabs-tabs > li a {
+    white-space: normal;
+    background: #e9e9e9;
+    border-radius: 10px 10px 0 0;
+  }
+
+  #page ul.quicktabs-tabs > li.active,
+  #page ul.quicktabs-tabs > li.active a {
+    background: #fff;
+  }
+
+}
+
+@media (max-width: 601px) {
+  #page ul.quicktabs-tabs > li {
+    display: table-row;
+  }
+}
+
+fieldset#webform-component-contact-info {
+  margin-top: 20px;
+}
+
+#page li > .accordion h1.accordion-arrows,
+#page li > .accordion h2.accordion-arrows,
+#page li > .accordion h3.accordion-arrows,
+#page li > .accordion h4.accordion-arrows,
+#page li > .accordion h5.accordion-arrows,
+#page li > .accordion h6.accordion-arrows {
+  margin-left: 10px;
+}
+
+fieldset.webform-component-fieldset {
+  margin-top: 20px;
+}
+
+.row-bottom-border {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dcd2c3;
+}
+
+.views-row-last.row-bottom-border {
+  border-bottom: none;
+}
+
+#page .view-contacts h3 {
+  border-bottom: 3px solid #dcd2c3;
+  padding: 10px 0 3px 3px;
+  font-size: 18px;
+}
+
+#page .view-contacts .view-content {
+  padding-top: 20px;
+}
+
+.node-profile .field-name-field-profile-job-title,
+.node-profile .field-name-field-profile-email {
+  margin-bottom: 0;
+}
+
+.node-profile li.node-readmore {
+  display: none;
+}
+
+.view-foster-care-licensing-agencies .views-field {
+  margin-bottom: 0;
+}
+
+#block-printfriendly-printfriendly {
+  margin-top: 20px;
+}
+
+@media (min-width: 600px) {
+  #zone-branding .region-menu .content > ul.menu {
+    display: table;
+  }
+
+  #zone-branding .region-menu .content > ul.menu > li {
+    display: table-cell;
+    float: none;
+  }
+}

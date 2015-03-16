@@ -1,0 +1,5 @@
+From URL,To URL,Redirect Status,Redirect Language
+page-1,1st-page/child-page,301,
+Some-page,1st-page,301,
+apdf.pdf,sites/default/files/PDF File.pdf,301,
+something,sites/default/files/PDF File.pdf,301,
